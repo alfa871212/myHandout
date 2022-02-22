@@ -1,0 +1,19 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {1}基本知識}{1}{chapter.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}物理學中的微分}{1}{section.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}微分方程}{1}{section.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}泰勒展開Taylor Expansion}{1}{section.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}位能曲線}{1}{section.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.5}例題}{2}{section.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.6}振動}{6}{section.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\numberline {2}諧振子Harmonic Oscillator}{7}{chapter.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}彈簧振子}{7}{section.2.1}%
