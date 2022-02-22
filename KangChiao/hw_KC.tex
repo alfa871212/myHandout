@@ -1,0 +1,75 @@
+\documentclass[cn,10pt,math=newtx,chinesefont=founder]{elegantbook}
+
+\title{林口康橋作業}
+\subtitle{2021年}
+
+\author{李宥頡}
+\institute{National Taiwan University}
+%\date{May 2, 2021}
+%\version{4.1}
+%\bioinfo{自定义}{信息}
+
+
+\setcounter{tocdepth}{3}
+
+%\logo{logo-blue.png}
+\cover{cover.jpg}
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+
+\definecolor{customcolor}{RGB}{32,178,170}
+\colorlet{coverlinecolor}{customcolor}
+
+\begin{document}
+
+\maketitle
+\frontmatter
+
+
+\tableofcontents
+
+\mainmatter
+
+
+\chapter{1月23日}
+\section{碗內滾球的簡諧運動 $\star\ \star$}
+參考自新概念Chap6. Ex1
+\begin{example}
+    質量為$m$，半徑為$r$的小球在半徑為$R$的半球形固定大碗內作純滾動（$2r<R$），假設$\theta$為球心和碗心連線
+    與鉛直線的夾角，$\phi$為滾動時對於球心的角位移，並設重力加速度為$g$（實心小球對於球心的轉動慣量為$\frac{2}{5}mr^2$）
+    \begin{enumerate}
+        \item 求$\dot{\theta}$和$\dot{\phi}$的關係 
+        \item 求位能的表示式
+        \item 求動能的表示式
+        \item 此運動的運動方程（Hint：利用力學能守恆$dE/dt=0$）
+        \item 在小幅度振盪的情況，此運動為簡諧運動，求SHM的週期
+    \end{enumerate}
+\end{example}
+\newpage
+
+\section{Larmor Formula}
+\begin{example}
+    根據Maxwell電動力學中，說明帶電粒子有加速度，即會輻射電磁波。而在1897年，物理學家Joseph Larmor，提出著名的Larmor公式
+    \begin{equation}
+        P = \frac{e^2 a^2}{6\pi \epsilon_{0} c^3}
+    \end{equation}
+    此公式描述了在非相對論情況下，若粒子帶有加速度$a$，將會輻射出功率為$P$的電磁波。
+    結合半古典(Semi-classical)的波耳氫原子模型
+    (Bohr Hydrogen Atomic Model)，假設電子的質量為m，庫倫常數以$\frac{1}{4\pi\epsilon_0}$表示，回答以下問題。
+    \begin{enumerate}
+        \item 證明在我們的模型中，大多數的情況為非相對情況下，即$v<<c$。
+        \item 計算Bohr model的壽命（假設運動一週的軌道都可以近似成圓，且電子在基態軌道，波耳半徑為0.53$\mbox{\normalfont\AA}$）。
+    \end{enumerate}
+    Ref. Griffiths Prob11.14 \\
+    Ref. https://www.physics.princeton.edu/~mcdonald/examples/orbitdecay.pdf
+\end{example}
+
+
+
+
+
+
+
+\end{document}

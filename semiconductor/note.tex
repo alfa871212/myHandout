@@ -1,0 +1,71 @@
+\documentclass[cn,10pt,math=newtx,chinesefont=founder]{../elegantbook}
+
+\title{半導體物理}
+\subtitle{2021年}
+
+\author{李宥頡}
+\institute{National Taiwan University}
+%\date{May 2, 2021}
+%\version{4.1}
+%\bioinfo{自定义}{信息}
+
+
+\setcounter{tocdepth}{3}
+
+%\logo{logo-blue.png}
+\cover{cover.jpg}
+
+% 本文档命令
+\usepackage{array}
+\newcommand{\ccr}[1]{\makecell{{\color{#1}\rule{1cm}{1cm}}}}
+
+\definecolor{customcolor}{RGB}{32,178,170}
+\colorlet{coverlinecolor}{customcolor}
+
+\begin{document}
+
+\maketitle
+\frontmatter
+
+\chapter*{序}
+\tableofcontents
+
+\mainmatter
+
+\chapter{金屬理論}
+\section{Drude Theory}
+\subsection{基本假設}
+%Ref from A&M chap 1 
+相較於氣體動力論中，只有一種粒子，在金屬中至少有兩種粒子，一為帶負電的電子，另一為帶正電的金屬離子（因為金屬是電中性），
+在Drude model裡，金屬可視為不可移動，且質量比電子重很多的粒子。若原子的原子序為$Z_a$，即代表中性原子具有$Z_a$個電子，
+其中有$Z$個電子是相對來說束縛較鬆的，所以金屬將會丟出這些電子，並參與化學反應，稱為傳導電子（conduction electron），
+留下的$Z_a-Z$個電子相對靠近原子核，並對化學反應貢獻較少，稱為core elctron。\\
+以下為Drude Theory的假設
+\begin{enumerate}
+    \item 電子在運動碰撞時，忽略和其他電子的交互作用(independent electorn approximation)，也忽略
+          和其他離子的交互作用(free electron approximation)
+    \begin{enumerate}
+        \item  若無外加電磁場在金屬上，電子在碰撞之間會作等速度運動
+        \item  若有外加電磁場在金屬上，電子在碰撞之間會作等加速度運動
+    \end{enumerate}    
+
+\end{enumerate}
+
+
+\chapter{能帶}
+\section{}
+
+原子的電子在原子核的勢場與其他電子的作用下，會分別位在不同的能階，形成所謂的電子殼層。透過三個量子數（$n, l ,m$)，可描述對應的電子
+軌域，例如($2p$)，每一殼層對應不同的能量。但在原子相互接近時，不同原子的電子雲會互相重疊。
+
+
+
+\chapter{Electron and Holes in Semiconductors \\ (Chenming Chap1)}
+
+\section{Si wafers and crystal planes}
+
+For 4 inch Si wafer, P for 90 degree N for 180 degree
+ 
+\section{Bond model}
+
+\end{document}
